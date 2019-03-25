@@ -1,0 +1,2 @@
+solr start
+pause

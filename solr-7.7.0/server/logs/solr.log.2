@@ -1,0 +1,250 @@
+2019-03-21 11:07:44.671 INFO  (main) [   ] o.e.j.u.log Logging initialized @1607ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-03-21 11:07:44.899 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-03-21 11:07:44.909 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.2+9-LTS
+2019-03-21 11:07:44.941 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/solr-7.7.0/solr-7.7.0/server/contexts/] at interval 0
+2019-03-21 11:07:45.440 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-03-21 11:07:45.455 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-03-21 11:07:45.455 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-03-21 11:07:45.458 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-03-21 11:07:45.514 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-03-21 11:07:45.547 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-03-21 11:07:45.553 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.7.0
+2019-03-21 11:07:45.553 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-03-21 11:07:45.554 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\solr-7.7.0\solr-7.7.0
+2019-03-21 11:07:45.554 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-03-21T11:07:45.554560500Z
+2019-03-21 11:07:45.614 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\solr-7.7.0\solr-7.7.0\server\solr
+2019-03-21 11:07:45.626 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\solr-7.7.0\solr-7.7.0\server\solr\solr.xml
+2019-03-21 11:07:45.708 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@37fb0bed, but no JMX reporters were configured - adding default JMX reporter.
+2019-03-21 11:07:46.462 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-03-21 11:07:46.902 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-03-21 11:07:46.904 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-03-21 11:07:47.001 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@37fb0bed
+2019-03-21 11:07:47.003 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@37fb0bed
+2019-03-21 11:07:47.014 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@37fb0bed
+2019-03-21 11:07:47.057 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath D:\solr-7.7.0\solr-7.7.0\server\solr
+2019-03-21 11:07:47.058 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [hello_solr]
+2019-03-21 11:07:47.137 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.c.SolrResourceLoader [hello_solr] Added 58 libs to classloader, from paths: [/D:/solr-7.7.0/solr-7.7.0/contrib/clustering/lib, /D:/solr-7.7.0/solr-7.7.0/contrib/extraction/lib, /D:/solr-7.7.0/solr-7.7.0/contrib/langid/lib, /D:/solr-7.7.0/solr-7.7.0/contrib/velocity/lib, /D:/solr-7.7.0/solr-7.7.0/dist]
+2019-03-21 11:07:47.375 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.0
+2019-03-21 11:07:47.607 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.s.IndexSchema [hello_solr] Schema name=default-config
+2019-03-21 11:07:47.805 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@117e0fe5{/solr,file:///D:/solr-7.7.0/solr-7.7.0/server/solr-webapp/webapp/,AVAILABLE}{D:\solr-7.7.0\solr-7.7.0\server/solr-webapp/webapp}
+2019-03-21 11:07:47.861 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@7ca8d498{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-03-21 11:07:47.862 INFO  (main) [   ] o.e.j.s.Server Started @4800ms
+2019-03-21 11:07:48.254 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-21 11:07:48.308 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.c.CoreContainer Creating SolrCore 'hello_solr' using configuration from instancedir D:\solr-7.7.0\solr-7.7.0\server\solr\hello_solr, trusted=true
+2019-03-21 11:07:48.347 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.hello_solr' (registry 'solr.core.hello_solr') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@37fb0bed
+2019-03-21 11:07:48.379 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.c.SolrCore [[hello_solr] ] Opening new SolrCore at [D:\solr-7.7.0\solr-7.7.0\server\solr\hello_solr], dataDir=[D:\solr-7.7.0\solr-7.7.0\server\solr\hello_solr\data\]
+2019-03-21 11:07:48.433 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-21 11:07:49.024 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-21 11:07:49.025 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-21 11:07:49.061 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-21 11:07:49.061 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-21 11:07:49.203 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.s.SolrIndexSearcher Opening [Searcher@1198dfc3[hello_solr] main]
+2019-03-21 11:07:49.224 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.7.0\solr-7.7.0\server\solr\hello_solr\conf
+2019-03-21 11:07:49.254 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-21 11:07:49.273 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-21 11:07:49.297 INFO  (coreLoadExecutor-9-thread-1) [   x:hello_solr] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-21 11:07:49.324 INFO  (searcherExecutor-10-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1198dfc3[hello_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(7.7.0):C2:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553163533496}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 11:07:49.324 INFO  (searcherExecutor-10-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-21 11:07:49.324 INFO  (searcherExecutor-10-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-21 11:07:49.334 INFO  (searcherExecutor-10-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.SolrCore [hello_solr] Registered new searcher Searcher@1198dfc3[hello_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(7.7.0):C2:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553163533496}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 11:07:52.233 INFO  (qtp7829163-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=146
+2019-03-21 11:08:53.808 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166533554} status=0 QTime=1
+2019-03-21 11:08:53.938 INFO  (qtp7829163-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166533555} status=0 QTime=132
+2019-03-21 11:08:54.055 INFO  (qtp7829163-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166533555} status=0 QTime=111
+2019-03-21 11:10:36.810 INFO  (qtp7829163-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166636545} status=0 QTime=0
+2019-03-21 11:10:37.063 INFO  (qtp7829163-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=249
+2019-03-21 11:10:37.063 INFO  (qtp7829163-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=247
+2019-03-21 11:10:39.200 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166636545} status=0 QTime=0
+2019-03-21 11:10:39.208 INFO  (qtp7829163-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553166636545} status=0 QTime=4
+2019-03-21 11:10:39.259 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166636545} status=0 QTime=0
+2019-03-21 11:10:39.260 INFO  (qtp7829163-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553166636545} status=0 QTime=1
+2019-03-21 11:10:39.342 INFO  (qtp7829163-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=138
+2019-03-21 11:10:39.443 INFO  (qtp7829163-42) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=95
+2019-03-21 11:10:42.970 INFO  (qtp7829163-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166636545} status=0 QTime=0
+2019-03-21 11:10:42.979 INFO  (qtp7829163-42) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553166642959} status=0 QTime=3
+2019-03-21 11:10:42.981 INFO  (qtp7829163-40) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/replication params={wt=json&command=details&_=1553166642959} status=0 QTime=5
+2019-03-21 11:10:42.994 INFO  (qtp7829163-16) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553166636547&ts=1553166636547} status=503 QTime=1
+2019-03-21 11:10:43.196 INFO  (qtp7829163-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=225
+2019-03-21 11:10:43.196 INFO  (qtp7829163-21) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/system params={wt=json&_=1553166642959} status=0 QTime=204
+2019-03-21 11:10:44.709 INFO  (qtp7829163-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553166636545} status=0 QTime=0
+2019-03-21 11:10:44.720 INFO  (qtp7829163-42) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553166642959} status=0 QTime=6
+2019-03-21 11:10:44.732 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553166644671} status=0 QTime=4
+2019-03-21 11:10:44.832 INFO  (qtp7829163-44) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553166642959} status=0 QTime=15
+2019-03-21 11:10:44.840 INFO  (qtp7829163-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553166636546} status=0 QTime=131
+2019-03-21 11:10:59.938 ERROR (qtp7829163-23) [   x:hello_solr] o.a.s.h.RequestHandlerBase org.apache.solr.api.ApiBag$ExceptionWithErrObject: error processing commands, errors: [{add-field={stored=true, indexed=true, uninvertible=true, type=text_general, name=question}, errorMessages=[Field 'question' already exists.
+]}], 
+	at org.apache.solr.handler.SchemaHandler.handleRequestBody(SchemaHandler.java:92)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-21 11:10:59.940 INFO  (qtp7829163-23) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/schema params={wt=json&_=1553166644671} status=400 QTime=15
+2019-03-21 11:22:16.048 ERROR (qtp7829163-18) [   x:hello_solr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: no stream
+	at org.apache.solr.handler.SchemaHandler.handleRequestBody(SchemaHandler.java:86)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-21 11:22:16.049 INFO  (qtp7829163-18) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/schema params={'{add-field:=} status=400 QTime=1
+2019-03-21 11:22:24.813 INFO  (qtp7829163-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:22:24.823 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:22:24.823 INFO  (qtp7829163-43) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=2
+2019-03-21 11:22:24.939 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=122
+2019-03-21 11:22:25.034 INFO  (qtp7829163-17) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:22:35.803 INFO  (qtp7829163-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:22:35.808 INFO  (qtp7829163-48) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:22:35.810 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=2
+2019-03-21 11:22:35.886 INFO  (qtp7829163-17) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:22:35.921 INFO  (qtp7829163-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=116
+2019-03-21 11:22:43.172 INFO  (qtp7829163-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:22:43.184 INFO  (qtp7829163-43) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=2
+2019-03-21 11:22:43.184 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:22:43.245 INFO  (qtp7829163-17) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:22:43.291 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=114
+2019-03-21 11:22:57.096 INFO  (qtp7829163-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:22:57.099 INFO  (qtp7829163-48) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:22:57.100 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:22:57.170 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:22:57.217 INFO  (qtp7829163-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=120
+2019-03-21 11:23:12.082 INFO  (qtp7829163-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:23:12.193 INFO  (qtp7829163-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=109
+2019-03-21 11:23:13.092 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/select params={q=*:*&_=1553167392037} hits=2 status=0 QTime=39
+2019-03-21 11:23:22.885 INFO  (qtp7829163-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:23:22.892 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:23:22.893 INFO  (qtp7829163-44) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/replication params={wt=json&command=details&_=1553167402877} status=0 QTime=1
+2019-03-21 11:23:22.905 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553167344526&ts=1553167344526} status=503 QTime=0
+2019-03-21 11:23:23.100 INFO  (qtp7829163-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=214
+2019-03-21 11:23:23.100 INFO  (qtp7829163-48) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/system params={wt=json&_=1553167402877} status=0 QTime=195
+2019-03-21 11:23:27.929 INFO  (qtp7829163-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:23:27.934 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:23:27.934 INFO  (qtp7829163-43) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:23:27.992 INFO  (qtp7829163-17) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:23:28.051 INFO  (qtp7829163-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=120
+2019-03-21 11:23:37.661 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167344526} status=0 QTime=0
+2019-03-21 11:23:37.671 INFO  (qtp7829163-47) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167344777} status=0 QTime=2
+2019-03-21 11:23:37.673 INFO  (qtp7829163-20) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167344777} status=0 QTime=0
+2019-03-21 11:23:37.741 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167344777} status=0 QTime=1
+2019-03-21 11:23:37.790 INFO  (qtp7829163-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167344526} status=0 QTime=126
+2019-03-21 11:24:10.828 ERROR (qtp7829163-42) [   x:hello_solr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: no stream
+	at org.apache.solr.handler.SchemaHandler.handleRequestBody(SchemaHandler.java:86)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-21 11:24:10.829 INFO  (qtp7829163-42) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/schema params={'{add-field:=} status=400 QTime=0
+2019-03-21 11:24:15.380 INFO  (qtp7829163-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167455148} status=0 QTime=0
+2019-03-21 11:24:15.382 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167455344} status=0 QTime=1
+2019-03-21 11:24:15.392 INFO  (qtp7829163-17) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167455345} status=0 QTime=0
+2019-03-21 11:24:15.498 INFO  (qtp7829163-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167455149} status=0 QTime=117
+2019-03-21 11:24:15.556 INFO  (qtp7829163-22) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167455344} status=0 QTime=0
+2019-03-21 11:27:50.267 INFO  (qtp7829163-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553167670057} status=0 QTime=0
+2019-03-21 11:27:50.276 INFO  (qtp7829163-25) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553167670227} status=0 QTime=1
+2019-03-21 11:27:50.276 INFO  (qtp7829163-18) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/config params={wt=json&_=1553167670227} status=0 QTime=0
+2019-03-21 11:27:50.383 INFO  (qtp7829163-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553167670058} status=0 QTime=115
+2019-03-21 11:27:50.549 INFO  (qtp7829163-49) [   x:hello_solr] o.a.s.c.S.Request [hello_solr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553167670227} status=0 QTime=0

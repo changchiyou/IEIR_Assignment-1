@@ -1,0 +1,93 @@
+2019-03-24 15:46:04.756 INFO  (main) [   ] o.e.j.u.log Logging initialized @944ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-03-24 15:46:04.892 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-03-24 15:46:04.899 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.2+9-LTS
+2019-03-24 15:46:04.922 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/%E4%B8%AD%E5%A4%AE%E5%AD%B8%E7%BF%92%E8%B3%87%E6%96%99/%E8%B3%87%E6%96%99%E8%90%83%E5%8F%96%E8%88%87%E6%AA%A2%E7%B4%A2/Assignment1/solr-7.7.0/server/contexts/] at interval 0
+2019-03-24 15:46:05.275 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-03-24 15:46:05.296 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-03-24 15:46:05.296 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-03-24 15:46:05.298 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-03-24 15:46:05.332 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-03-24 15:46:05.357 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-03-24 15:46:05.362 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.7.0
+2019-03-24 15:46:05.362 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-03-24 15:46:05.362 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0
+2019-03-24 15:46:05.363 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-03-24T15:46:05.363518700Z
+2019-03-24 15:46:05.402 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr
+2019-03-24 15:46:05.409 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\solr.xml
+2019-03-24 15:46:05.462 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f, but no JMX reporters were configured - adding default JMX reporter.
+2019-03-24 15:46:05.812 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-03-24 15:46:06.113 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-03-24 15:46:06.115 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-03-24 15:46:06.175 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f
+2019-03-24 15:46:06.176 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f
+2019-03-24 15:46:06.181 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f
+2019-03-24 15:46:06.211 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr
+2019-03-24 15:46:06.212 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [Assignment1, hello_solr]
+2019-03-24 15:46:06.277 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.c.SolrResourceLoader [hello_solr] Added 58 libs to classloader, from paths: [/D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/clustering/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/extraction/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/langid/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/velocity/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/dist]
+2019-03-24 15:46:06.277 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.c.SolrResourceLoader [Assignment1] Added 58 libs to classloader, from paths: [/D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/clustering/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/extraction/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/langid/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/contrib/velocity/lib, /D:/中央學習資料/資料萃取與檢索/Assignment1/solr-7.7.0/dist]
+2019-03-24 15:46:06.466 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.0
+2019-03-24 15:46:06.466 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.0
+2019-03-24 15:46:06.627 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@26fb628{/solr,file:///D:/%E4%B8%AD%E5%A4%AE%E5%AD%B8%E7%BF%92%E8%B3%87%E6%96%99/%E8%B3%87%E6%96%99%E8%90%83%E5%8F%96%E8%88%87%E6%AA%A2%E7%B4%A2/Assignment1/solr-7.7.0/server/solr-webapp/webapp/,AVAILABLE}{D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server/solr-webapp/webapp}
+2019-03-24 15:46:06.629 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.s.IndexSchema [hello_solr] Schema name=default-config
+2019-03-24 15:46:06.633 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.s.IndexSchema [Assignment1] Schema name=default-config
+2019-03-24 15:46:06.650 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@36061cf3{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-03-24 15:46:06.650 INFO  (main) [   ] o.e.j.s.Server Started @2841ms
+2019-03-24 15:46:07.042 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-24 15:46:07.042 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-24 15:46:07.072 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.c.CoreContainer Creating SolrCore 'Assignment1' using configuration from instancedir D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\Assignment1, trusted=true
+2019-03-24 15:46:07.074 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.c.CoreContainer Creating SolrCore 'hello_solr' using configuration from instancedir D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\hello_solr, trusted=true
+2019-03-24 15:46:07.083 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.Assignment1' (registry 'solr.core.Assignment1') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f
+2019-03-24 15:46:07.083 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.hello_solr' (registry 'solr.core.hello_solr') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4e07b95f
+2019-03-24 15:46:07.098 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.c.SolrCore [[hello_solr] ] Opening new SolrCore at [D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\hello_solr], dataDir=[D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\hello_solr\data\]
+2019-03-24 15:46:07.098 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.c.SolrCore [[Assignment1] ] Opening new SolrCore at [D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\Assignment1], dataDir=[D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\Assignment1\data\]
+2019-03-24 15:46:07.115 INFO  (qtp1320388319-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=84
+2019-03-24 15:46:07.139 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-24 15:46:07.139 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-24 15:46:07.541 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-24 15:46:07.541 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-24 15:46:07.541 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-24 15:46:07.541 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-24 15:46:07.578 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-24 15:46:07.578 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-24 15:46:07.578 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-24 15:46:07.578 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-24 15:46:07.665 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.s.SolrIndexSearcher Opening [Searcher@7339177d[hello_solr] main]
+2019-03-24 15:46:07.665 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.s.SolrIndexSearcher Opening [Searcher@3a93c1f[Assignment1] main]
+2019-03-24 15:46:07.674 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\Assignment1\conf
+2019-03-24 15:46:07.674 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\中央學習資料\資料萃取與檢索\Assignment1\solr-7.7.0\server\solr\hello_solr\conf
+2019-03-24 15:46:07.690 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-24 15:46:07.690 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-24 15:46:07.698 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-24 15:46:07.698 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-24 15:46:07.708 INFO  (coreLoadExecutor-9-thread-1) [   x:Assignment1] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-24 15:46:07.708 INFO  (coreLoadExecutor-9-thread-2) [   x:hello_solr] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-24 15:46:07.726 INFO  (searcherExecutor-10-thread-1-processing-x:Assignment1) [   x:Assignment1] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3a93c1f[Assignment1] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(7.7.0):C722/361:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553440339690}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:delGen=1)))}
+2019-03-24 15:46:07.726 INFO  (searcherExecutor-11-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7339177d[hello_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.7.0):C2:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553170436114}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-24 15:46:07.727 INFO  (searcherExecutor-10-thread-1-processing-x:Assignment1) [   x:Assignment1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-24 15:46:07.727 INFO  (searcherExecutor-11-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-24 15:46:07.727 INFO  (searcherExecutor-11-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-24 15:46:07.727 INFO  (searcherExecutor-10-thread-1-processing-x:Assignment1) [   x:Assignment1] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-24 15:46:07.732 INFO  (searcherExecutor-11-thread-1-processing-x:hello_solr) [   x:hello_solr] o.a.s.c.SolrCore [hello_solr] Registered new searcher Searcher@7339177d[hello_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.7.0):C2:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553170436114}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-24 15:46:07.732 INFO  (searcherExecutor-10-thread-1-processing-x:Assignment1) [   x:Assignment1] o.a.s.c.SolrCore [Assignment1] Registered new searcher Searcher@3a93c1f[Assignment1] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(7.7.0):C722/361:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1553440339690}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:delGen=1)))}
+2019-03-24 15:53:11.307 INFO  (qtp1320388319-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=1
+2019-03-24 15:53:11.426 INFO  (qtp1320388319-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=120
+2019-03-24 15:53:11.427 INFO  (qtp1320388319-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=119
+2019-03-24 15:54:18.009 INFO  (qtp1320388319-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=0
+2019-03-24 15:54:18.015 INFO  (qtp1320388319-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553442791148} status=0 QTime=4
+2019-03-24 15:54:18.050 INFO  (qtp1320388319-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=0
+2019-03-24 15:54:18.055 INFO  (qtp1320388319-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553442791148} status=0 QTime=2
+2019-03-24 15:54:18.086 INFO  (qtp1320388319-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=74
+2019-03-24 15:54:18.149 INFO  (qtp1320388319-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=58
+2019-03-24 15:55:01.552 INFO  (qtp1320388319-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=0
+2019-03-24 15:55:01.561 INFO  (qtp1320388319-22) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553442901543} status=0 QTime=2
+2019-03-24 15:55:01.565 INFO  (qtp1320388319-41) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/replication params={wt=json&command=details&_=1553442901544} status=0 QTime=5
+2019-03-24 15:55:01.567 INFO  (qtp1320388319-18) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553442791149&ts=1553442791149} status=503 QTime=1
+2019-03-24 15:55:01.667 INFO  (qtp1320388319-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=113
+2019-03-24 15:55:01.667 INFO  (qtp1320388319-19) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/admin/system params={wt=json&_=1553442901544} status=0 QTime=105
+2019-03-24 15:55:03.675 INFO  (qtp1320388319-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=0
+2019-03-24 15:55:03.687 INFO  (qtp1320388319-16) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553442901543} status=0 QTime=5
+2019-03-24 15:55:03.709 INFO  (qtp1320388319-22) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/config params={wt=json&_=1553442903652} status=0 QTime=24
+2019-03-24 15:55:03.738 INFO  (qtp1320388319-46) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=61
+2019-03-24 15:55:03.749 INFO  (qtp1320388319-17) [   x:Assignment1] o.a.s.c.S.Request [Assignment1]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553442901543} status=0 QTime=11
+2019-03-24 15:57:32.835 INFO  (qtp1320388319-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553442791148} status=0 QTime=0
+2019-03-24 15:57:32.896 INFO  (qtp1320388319-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553442791149} status=0 QTime=61
