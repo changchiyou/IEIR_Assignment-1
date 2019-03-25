@@ -1,4 +1,4 @@
-# 如何執行
+# How to run
 0. (如已有*novel_data.csv*可跳過)用*spyder* Editer運行或是直接將*solr_import.py*跟*solr_retrieve.py*放進與*python.exe*同位置資料夾後，以此資料夾為路徑開啟cmd視窗後輸入以下指令，以獲取*novel_data.csv*資料：
 <pre><code>python solr_scraping.py
 </code></pre>
