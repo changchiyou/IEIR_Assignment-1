@@ -3,7 +3,7 @@
 <pre><code>python solr_scraping.py
 </code></pre>
 以獲取*novel_data.csv*資料
-1. 執行*solr-7.7.0/bin*資料夾內的*start.bat*，確實等待*Happy search!*字樣跑出來
+1. 執行*solr-7.7.0/bin*資料夾內的*start.bat*，確實等待"Happy search!"字樣跑出來
 2. 用瀏覽器進入 *http://127.0.0.1:8983/solr/#/* ，在Core Admin新增一個Core名為*Assignment1*，並在Schema分別新增*question*和*answer* Field，field type皆為text_general。
 3. 於0.步驟開啟的cmd視窗輸入以下指令：
 <pre><code>python solr_import.py
