@@ -9,8 +9,8 @@
 <pre><code>python solr_import.py
 </code></pre>
 (此步驟後可能需要關掉所有視窗後重新執行1.步驟)
-4.重新用瀏覽器進入 *http://127.0.0.1:8983/solr/#/* 後確認Query欄位點選Execute Query按鈕後有沒有顯示確實導入了*solr_import.py*內的*QA_Pair_list*，並於0.步驟開啟的cmd視窗輸入以下指令：
+4. 重新用瀏覽器進入 *http://127.0.0.1:8983/solr/#/* 後確認Query欄位點選Execute Query按鈕後有沒有顯示確實導入了*solr_import.py*內的*QA_Pair_list*，並於0.步驟開啟的cmd視窗輸入以下指令：
 <pre><code>python solr_retrieve.py
 </code></pre>
-5.輸入paper內第四點Experiment下提供的十點測試input。
+5. 輸入paper內第四點Experiment下提供的十點測試input。
 
